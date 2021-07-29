@@ -33,7 +33,7 @@ while 1:
 		#Dibujar rectangulo(imagen, coordenadas, ancho y alto, color en RGB, grosor)
 		img = cv2.rectangle(frame, (x,y), (x+w, y+h), (0,0,255), 2)
 		cv2.putText(img = img,
-                text = "Person",
+                text = "Rostro",
                 org = (x-10, y-10),
                 fontFace = cv2.FONT_HERSHEY_SIMPLEX,
                 fontScale = 0.6,
